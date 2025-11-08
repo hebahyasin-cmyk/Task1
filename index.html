@@ -2,16 +2,17 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <title>Home Page</title>
-    <meta name="description" content="" />
-    <meta name="author" content="Hebah Yasin">
-    <meta name="keywords" content="reverifi">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css" />
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
-
+  <meta charset="UTF-8" />
+  <title>Home Page</title>
+  <meta name="description" content="" />
+  <meta name="author" content="Hebah Yasin">
+  <meta name="keywords" content="reverifi">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+ <!-- Font Awesome 6 (Free version - includes solid, regular, brands) -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 
 <body>
@@ -42,40 +43,245 @@
         <div class="search-listing-text">
           <h1>Search our listings for your next purchase</h1>
           <div class="search-box">
-            <img src="assets/location-pin.svg" class="location-icon" />
-            <input type="search" placeholder="Enter City, neighborhood, ZIP, or address">
+            <!-- <img src="assets/location-pin.svg" class="location-icon" /> -->
+            <input type="search" placeholder="Enter City, neighborhood, ZIP, or address" />
             <button type="submit" class="search-btn">
-              <img src="assets/Filter.svg"/>
+              <img src="assets/Filter.svg" />
             </button>
           </div>
         </div>
         <div class="search-listing-img">
-          <img src="assets/Group 262.svg" alt="House illustration" />
+          <img src="assets/Group 262.svg" />
         </div>
       </section>
-      
       <section class="featured-listing">
         <h2>Our Featured Listing</h2>
         <div class="featured-listing-card-container">
-          <div class="featured-listing-card">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia consequatur culpa rem magnam quam omnis non enim placeat quos, accusantium provident quidem architecto cumque molestiae asperiores cum nemo eius assumenda.
-            <div class="card-img-flag">new</div>
-            <span>apartment#1</span>
-            
-            
-          </div>
+          <div class="carousel">
+            <div class="carousel-slide">
+              <div class="featured-listing-card">
+                <div class="card-img" style="background-image: url('assets/pexels-curtis-adams-5178068.svg');">
+                  <div class="flag-wrapper">
+                    <div class="card-img-flag new">new</div>
+                  </div>
+                  <div class="card-img-person"></div>
+                </div>
+        
+                <div class="listing-content">
+                  <div class="listing-header">
+                    <div class="listing-info">
+                      <span class="listing-title">Apartment#1</span>
+                      <div class="listing-location">
+                        <span>Bronx, NY 10459</span>
+                      </div>
+                      <span class="listing-distance">1.1km away</span>
+                    </div>
+                  </div>
+                  <div class="listing-services">
+                    <span class="service-bed">2</span>
+                    <span class="service-wifi"></span>
+                    <span class="service-bath">1</span>
+                    <span class="service-condition"></span>
+                    <span class="service-furniture"></span>
+                  </div>
+                  <hr />
+                  <div class="listing-footer">
+                    <span class="listing-price">$30,000</span>
+        
+                    <div class="listing-share">
+                      <button class="icon-btn like" aria-label="Like">
+                        <i class="fa-solid fa-semibold fa-heart"></i>
+                      </button>
+                      <button class="icon-btn share" aria-label="Share">
+                        <i class="fa-solid fa-share-nodes"></i>
+                      </button>
+                    </div>
+                    
+                  </div>
+                </div>
+              </div>
+              
+              <div class="featured-listing-card">
+                <div class="card-img" style="background-image: url('assets/pexels-pixabay-259962.svg');">
+                  <div class="flag-wrapper">
+                    <div class="card-img-flag rent">rent</div>
+                  </div>
+              
+                  <div class="card-img-person"></div>
+                </div>
+                <div class="listing-content">
+                  <div class="listing-header">
+                    <div class="listing-info">
+                      <span class="listing-title">Apartment#2</span>
+                      <div class="listing-location">
+                        <span>Bronx, NY 10459</span>
+                      </div>
+                      <span class="listing-distance">1.1km away</span>
+                    </div>
+                  </div>
+                  <div class="listing-services">
+                    <span class="service-bed">2</span>
+                    <span class="service-wifi"></span>
+                    <span class="service-bath">1</span>
+                    <span class="service-condition"></span>
+                    <span class="service-furniture"></span>
+                  </div>
+                  <hr />
+                  <div class="listing-footer">
+                    <span class="listing-price rent">$123</span>
+        
+                    <div class="listing-share">
+                      <button class="icon-btn like" aria-label="Like">
+                        <i class="fa-solid fa-semibold fa-heart"></i>
+                      </button>
+                      <button class="icon-btn share" aria-label="Share">
+                        <i class="fa-solid fa-share-nodes"></i>
+                      </button>
+                    </div>
+                    
+                  </div>
+                </div>
+              </div>
 
+              <div class="featured-listing-card">
+                <div class="card-img" style="background-image: url('assets/pexels-pixabay-276724.svg');">
+                  <div class="flag-wrapper">
+                    <div class="card-img-flag new">new</div>
+                    <div class="card-img-flag rent">rent</div>
+                  </div>
+                  
+                  <div class="card-img-person"></div>
+                </div>
+        
+                <div class="listing-content">
+                  <div class="listing-header">
+                    <div class="listing-info">
+                      <span class="listing-title">Apartment#3</span>
+                      <div class="listing-location">
+                        <span>Bronx, NY 10459</span>
+                      </div>
+                      <span class="listing-distance">1.1km away</span>
+                    </div>
+                  </div>
+                  <div class="listing-services">
+                    <span class="service-bed">2</span>
+                    <span class="service-wifi"></span>
+                    <span class="service-bath">1</span>
+                    <span class="service-condition"></span>
+                    <span class="service-furniture"></span>
+                  </div>
+                  <hr />
+                  <div class="listing-footer">
+                    <span class="listing-price">$30,000</span>
+        
+                    <div class="listing-share">
+                      <button class="icon-btn like" aria-label="Like">
+                        <i class="fa-solid fa-semibold fa-heart"></i>
+                      </button>
+                      <button class="icon-btn share" aria-label="Share">
+                        <i class="fa-solid fa-share-nodes"></i>
+                      </button>
+                    </div>
+                    
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="circles">
+            <div class="circle active"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+          </div>
         </div>
       </section>
-      <section class=""></section>
-      <section class=""></section>
-      <section class=""></section>
-      <section class=""></section>
-      <section class=""></section>
-      <section class=""></section>
-
+      <section class="events">
+        <h2>Events</h2>
+      </section>
+      <section class="search-network">
+        <div class="search-network-text">
+          <h2>reverifi</h2>
+          <p>Search our network and find your supporting team to complete the process.</p>
+          <button>See More</button>
+        </div>
+        <div class="search-network-teams">
+          <span>Attorney</span>
+          <span>Photographer</span>
+          <span>Agent</span>
+          <span>Cleaning Services</span>
+          <span>Home Inspectors</span>
+          <span>Insurance Provider</span>
+        </div>
+      </section>
+      <section class="explore">
+        <div class="carousel">
+          <div class="carousel-slide">
+            <div class="card">
+              <div class="circles">
+                <<div class="circle active"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+                <div class="circle"></div>
+              </div>
+            </div>
+          </div>
+      </section>
+      <section class="claim-address">
+        <img/>
+        <h2>Claim your Address</h2>
+        <div class="search-box">
+          <input/>
+        </div>
+      </section>
+      <section class="join-us">
+        <h3>Start your real estate journey with</h3>
+        <button>Join us</button>
+      </section>
+      <section class="contact">
+        <div class="social-media">
+          <span class="facebook"></span>
+          <span class="instagram"></span>
+          <span class="youtube"></span>
+          <span class="linkedin"></span>
+        </div>
+        <div class="traditional-contact">
+          <span class="location"></span>
+          <span class="email"></span>
+          <span class="phone"></span>
+        </div>
+        <div class="links">
+          <h3 class="contact-header">Helpful Link</h3>
+          <span class="link-item">Sign in</span>
+          <span class="link-item">Support</span>
+          <span class="link-item">FAQ's</span>
+        </div>
+        <div class="links">
+          <h3 class="contact-header">Company</h3>
+          <span class="link-item">About us</span>
+          <span class="link-item">Privacy</span>
+          <span class="link-item">Terms of use</span>
+          <span class="link-item">Accessability</span>
+        </div>
+        <div class="subscribe">
+          <h3 class="contact-header">Subscribe to our Newsletter</h3>
+          <div class="subscribe-bar">
+            <input type="email" placeholder="Subscribe to our Newsletter">
+            <button>Subscribe</button>
+          </div>
+        </div>
+      </section>
     </div>
-  </main>
+    </main>
+    <footer>
+      <h3>Copyright &company 2021 Reverifi. All rights reserved</h3>
+    </footer>
 
 </body>
 
