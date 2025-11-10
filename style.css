@@ -1106,8 +1106,7 @@ width: 100%;
 
 @media (min-width:1024px) {
   .claim-address {
-    height: 300px;
-    width: 1442px;
+    height: 18.75rem;
   }
   .claim-address .map {
     background-image: url("assets/Group 160 (1).svg");
