@@ -1299,6 +1299,7 @@ width: 7.5rem;
 @media (min-width:1024px) {
   .contact {
     grid-template-rows: 1fr 1fr;
+    background-color: #F5F5F5;
   }
   .social-media{
     grid-row:1;
