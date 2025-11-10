@@ -1172,17 +1172,20 @@ width: 7.5rem;
 
 @media (min-width:1024px) {
   .join-us{
-    height: 72px;
+    height: 4.5rem;
     background-color: var(--primary-green);
     display: grid;
     justify-items: center;
     width: 87.5rem;
-    position: relative;
   }
   .join-us h3{
-  font-size: 22px;
+  font-size: 1.375rem;
   left: 31.25rem;
+  top: 1.25rem;
+  }
 
+  .join-us button{
+    top:1.25rem;
   }
 }
 /* ///////////////////////////////////////////////////////////////////*/
